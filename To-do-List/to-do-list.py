@@ -50,7 +50,7 @@ def main_window():
     label.grid(row=0,column=0,columnspan=3,padx=10,pady=10)
     
     task_label = tk.Label(main_frame,text="Task:",bg="#1c1c1c",fg="white",font=custom_font)
-    task_label.grid(row=2,column=0,padx=5,pady=5,sticky='W')
+    task_label.grid(row=2,column=0,padx=5,pady=5,sticky='S')
     
     task_entry.grid(in_=main_frame,row=3,column=0,padx=5,pady=5,sticky='nsew')
     
@@ -71,7 +71,7 @@ root.config(bg="#232324")
 
 main_frame = tk.Frame(root,bg="#1c1c1c")
 
-task_entry = tk.Entry(bg="#1c1c1c",fg="white",font=custom_font,insertbackground="white")
+task_entry = tk.Entry(bg="#1c1c1c",fg="white",font=custom_font,insertbackground="white",justify="center")
 
 task_listbox = tk.Listbox(width=28,height=18,bg="#e9dab9",fg="black",border=0,font=("Bahnschrift",16))
 

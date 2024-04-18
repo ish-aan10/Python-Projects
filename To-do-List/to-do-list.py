@@ -80,7 +80,6 @@ delete_button = tk.Button(text="DELETE TASK",bg="#1c1c1c",fg="white",activebackg
 exit_button = tk.Button(text="EXIT",bg="#1c1c1c",fg="white",activebackground="#1c1c1c",activeforeground="white")
 
 load_tasks_on_start()
-
 main_window()
 
 root.protocol("WM_DELETE_WINDOW", on_exit)

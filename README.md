@@ -1,2 +1,1 @@
-# projects-codsoft
-Author - Ishaan
+
